@@ -10,6 +10,7 @@
             <el-select
               v-model="form.address"
               placeholder="请选择地址"
+              clearable
             >
               <el-option
                 v-for="(item, index) in addressOptions"
